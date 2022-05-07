@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Study">
         <activity
+            android:name=".Dog4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dog3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dog2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dog1Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
